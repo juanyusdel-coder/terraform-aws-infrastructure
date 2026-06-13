@@ -162,6 +162,7 @@ terraform output rds_endpoint   # sensitive
 
 ## 🔄 CI/CD Pipeline Status
 ![Pipeline](https://github.com/juanyusdel-coder/terraform-aws-infrastructure/actions/workflows/terraform.yml/badge.svg)
+""
 
 ## 👤 Author
 
