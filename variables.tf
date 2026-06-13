@@ -17,7 +17,7 @@ variable "environment" {
 variable "aws_region" {
   description = "AWS region"
   type        = string
-  default     = "us-east-1"
+  default     = "sa-east-1"
 }
 
 variable "vpc_cidr" {
@@ -41,7 +41,7 @@ variable "private_subnets" {
 variable "availability_zones" {
   description = "Availability zones"
   type        = list(string)
-  default     = ["us-east-1a", "us-east-1b"]
+  default     = ["sa-east-1a", "sa-east-1b"]
 }
 
 variable "instance_type" {
@@ -59,7 +59,7 @@ variable "key_name" {
 variable "ami_id" {
   description = "Amazon Machine Image ID (Amazon Linux 2)"
   type        = string
-  default     = "ami-0c02fb55956c7d316"
+  default     = "ami-0c51a6e57778d67c5"
 }
 
 variable "db_name" {
