@@ -149,6 +149,8 @@ terraform output rds_endpoint   # sensitive
 
 ### Web App Live
 ![Web App](screenshots/06-webapp-browser.png)
+### AWS Console — Load Balancer
+![Web App](screenshots/aws-LoadBalancer.png)
 
 ## 💡 Production Recommendations
 
