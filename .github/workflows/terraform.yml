@@ -30,7 +30,7 @@ on:
 
 env:
   TF_VERSION: "1.6.0"
-  AWS_REGION: "us-east-1"
+  AWS_REGION: "sa-east-1"
   TF_VAR_FILE: "environments/dev/terraform.tfvars"
 
 jobs:
