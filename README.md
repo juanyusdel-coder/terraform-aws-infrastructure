@@ -130,6 +130,25 @@ terraform output ec2_public_ip
 terraform output s3_bucket_name
 terraform output rds_endpoint   # sensitive
 ```
+## 📸 Deployment Evidence
+
+### Terraform Apply
+![Terraform Apply](screenshots/01-terraform-output-VSCode.png)
+
+### AWS Console — VPC
+![VPC Console](screenshots/02-aws-vpc-console.png)
+
+### AWS Console — EC2
+![EC2 Console](screenshots/03-aws-ec2-console.png)
+
+### AWS Console — RDS
+![RDS Console](screenshots/04-aws-rds-console.png)
+
+### AWS Console — S3
+![S3 Console](screenshots/05-aws-s3-console.png)
+
+### Web App Live
+![Web App](screenshots/06-webapp-browser.png)
 
 ## 💡 Production Recommendations
 
