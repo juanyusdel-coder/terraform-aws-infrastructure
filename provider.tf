@@ -3,7 +3,7 @@
 ###############################################################
 
 terraform {
-  required_version = ">= 1.9.0"
+  required_version = ">= 1.10.0"
 
   required_providers {
     aws = {
@@ -16,6 +16,15 @@ terraform {
     }
   }
 
+  backend "s3" {
+    bucket  = "webapp-terraform-state-yusdel"
+    key     = "webapp/terraform.tfstate"
+    region  = "sa-east-1"
+    encrypt = true
+
+    # Native S3 locking — no DynamoDB needed (requires Terraform >= 1.10)
+    use_lockfile = true
+  }
   # Remote state backend (uncomment for team use)
   # backend "s3" {
   #   bucket         = "your-terraform-state-bucket"
