@@ -160,6 +160,9 @@ terraform output rds_endpoint   # sensitive
 - Set `skip_final_snapshot = false` on RDS
 - Restrict SSH ingress to specific IP addresses
 
+## 🔄 CI/CD Pipeline Status
+![Pipeline](https://github.com/juanyusdel-coder/terraform-aws-infrastructure/actions/workflows/terraform.yml/badge.svg)
+
 ## 👤 Author
 
 **Yusdel Concepcion** — Senior DevOps & Cloud Engineer
